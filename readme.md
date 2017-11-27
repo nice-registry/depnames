@@ -12,7 +12,7 @@ Node 8 or greater is required because this module uses async functions.
 npm i -g depnames
 ```
 
-# Module Usage
+## Module Usage
 
 This module exports a single function which expects a package name and returns a 
 promise. The resolved value is an array of package name strings:
@@ -32,7 +32,7 @@ require('depnames')('cheerio', {dev: true})
 If you need more flexibility, see
 [fetch-nice-package] and [nice-package].
 
-# CLI Usage
+## CLI Usage
 
 The CLI prints a newline-delimited list to standard out:
 
